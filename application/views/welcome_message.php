@@ -82,9 +82,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Welcome to CodeIgniter Putut-Senpai >//< </h1>
 
 	<div id="body">
-		<p>Testing awal itngpage you are looking at is being generated dynamically by CodeIgniter.</p>
+		<p>Testing awal it ngpage you are looking at is being generated dynamically by CodeIgniter.</p>
 
-		<p>If you would like to edit this page you'll find it located at:</p>
+		<p>If testing game awal you would like to edit this page you'll find it located at:</p>
 		<code>application/views/welcome_message.php</code>
 
 		<p>The corresponding controller for this page is found at:</p>
