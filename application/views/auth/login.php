@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from codervent.com/rocker/demo/vertical/auth-basic-signin.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 May 2024 17:09:53 GMT -->
+<!-- Mirrored from codervent.com/rocker/demo/vertical/auth-cover-signin.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 May 2024 17:09:54 GMT -->
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -28,15 +28,26 @@
 <body class="">
 	<!--wrapper-->
 	<div class="wrapper">
-		<div class="section-authentication-signin d-flex align-items-center justify-content-center my-5 my-lg-0">
-			<div class="container">
-				<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
-					<div class="col mx-auto">
-						<div class="card mb-0">
+		<div class="section-authentication-cover">
+			<div class="">
+				<div class="row g-0">
+
+					<div class="col-12 col-xl-7 col-xxl-8 auth-cover-left align-items-center justify-content-center d-none d-xl-flex">
+
+                        <div class="card shadow-none bg-transparent shadow-none rounded-0 mb-0">
 							<div class="card-body">
-								<div class="p-4">
+                                 <img src="assets/images/login-images/login-cover.svg" class="img-fluid auth-img-cover-login" width="650" alt=""/>
+							</div>
+						</div>
+						
+					</div>
+
+					<div class="col-12 col-xl-5 col-xxl-4 auth-cover-right align-items-center justify-content-center">
+						<div class="card rounded-0 m-3 shadow-none bg-transparent mb-0">
+							<div class="card-body p-sm-5">
+								<div class="">
 									<div class="mb-3 text-center">
-										<img src="assets/images/logo-icon.png" width="60" alt="" />
+										<img src="assets/images/logo-icon.png" width="60" alt="">
 									</div>
 									<div class="text-center mb-4">
 										<h5 class="">Rocker Admin</h5>
@@ -51,7 +62,7 @@
 											<div class="col-12">
 												<label for="inputChoosePassword" class="form-label">Password</label>
 												<div class="input-group" id="show_hide_password">
-													<input type="password" class="form-control border-end-0" id="inputChoosePassword" value="12345678" placeholder="Enter Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+													<input type="password" class="form-control border-end-0" id="inputChoosePassword" value="12345678" placeholder="Enter Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class="bx bx-hide"></i></a>
 												</div>
 											</div>
 											<div class="col-md-6">
@@ -76,7 +87,7 @@
 										</form>
 									</div>
 									<div class="login-separater text-center mb-5"> <span>OR SIGN IN WITH</span>
-										<hr/>
+										<hr>
 									</div>
 									<div class="list-inline contacts-social text-center">
 										<a href="javascript:;" class="list-inline-item bg-facebook text-white border-0 rounded-3"><i class="bx bxl-facebook"></i></a>
@@ -89,6 +100,7 @@
 							</div>
 						</div>
 					</div>
+
 				</div>
 				<!--end row-->
 			</div>
@@ -124,5 +136,5 @@
 </body>
 
 
-<!-- Mirrored from codervent.com/rocker/demo/vertical/auth-basic-signin.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 May 2024 17:09:53 GMT -->
+<!-- Mirrored from codervent.com/rocker/demo/vertical/auth-cover-signin.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 May 2024 17:09:55 GMT -->
 </html>
