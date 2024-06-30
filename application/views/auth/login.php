@@ -24,6 +24,7 @@
 									<div class="text-center mb-4">
 										<h5 class="">Login Page</h5>
 										<p class="mb-0">Please log in to your account</p>
+										<?= $this->session->flashdata('pesan');?>
 									</div>
 									<div class="form-body">
 										<form class="row g-3">
